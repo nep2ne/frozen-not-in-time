@@ -1,3 +1,19 @@
 html {
   font-family: "Fredoka One", cursive;
 }
+
+.dark-magenta {
+  color: #990073;
+}
+
+.light-magenta {
+  color: #c09;
+}
+
+.text {
+  text-shadow: 2px 2px #e2e2e2;
+}
+
+.btn {
+  border: 3px solid #990073;
+}
