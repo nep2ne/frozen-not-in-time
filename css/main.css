@@ -11,6 +11,13 @@ html {
 
 .dark-magenta {
   color: #990073;
+    transform: rotate(-10deg);
+  transform-origin: left;
+}
+
+.tagline {
+    transform: rotate(-5deg);
+    transform-origin: left;
 }
 
 .light-magenta {
@@ -27,4 +34,8 @@ html {
 
 .max-width {
   max-width: 19em;
+}
+
+.btn:hover {
+  background-color: rbga(99, 0, 73, .75);
 }
