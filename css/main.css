@@ -1,5 +1,12 @@
 html {
   font-family: "Fredoka One", cursive;
+  background: repeating-linear-gradient(
+    -35deg,
+    #c9fcff,
+    #c9fcff 10px,
+    #d4fdff 10px,
+    #d4fdff 20px
+    );
 }
 
 .dark-magenta {
@@ -16,4 +23,8 @@ html {
 
 .btn {
   border: 3px solid #990073;
+}
+
+.max-width {
+  max-width: 19em;
 }
