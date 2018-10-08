@@ -1,23 +1,17 @@
 html {
-  font-family: "Fredoka One", cursive;
-  background: repeating-linear-gradient(
-    -35deg,
-    #c9fcff,
-    #c9fcff 10px,
-    #d4fdff 10px,
-    #d4fdff 20px
-    );
+  font-family: "Fredoka One", sans-serif;
+  background: repeating-linear-gradient(-35deg, #c9fcff, #c9fcff 10px, #d4fdff 10px, #d4fdff 20px);
 }
 
 .dark-magenta {
   color: #990073;
-    transform: rotate(-10deg);
+  transform: rotate(-10deg);
   transform-origin: left center;
 }
 
 .tagline {
-    transform: rotate(-5deg);
-    transform-origin: left center;
+  transform: rotate(-5deg);
+  transform-origin: left center;
 }
 
 .light-magenta {
@@ -41,40 +35,40 @@ html {
 }
 
 .btn:hover {
-  background-color: rbga(99, 0, 73, .75);
+  background-color: #b3fbff;
 }
 
 .mint-chip {
   z-index: 3;
   position: absolute;
   top: 350px;
-  left: 900px;
+  left: 700px;
 }
 
 .cone {
   z-index: 4;
   position: absolute;
   top: 500px;
-  left: 900px;
+  left: 700px;
 }
 
 .chocolate-chip {
   z-index: 5;
   position: absolute;
   top: 225px;
-  left: 910px;
+  left: 710px;
 }
 
 .vanilla-fudge {
   z-index: 6;
   position: absolute;
   top: 120px;
-  left: 900px;
+  left: 700px;
 }
 
 .cherry {
   z-index: 7;
   position: absolute;
   top: 10px;
-  left: 910px;
+  left: 710px;
 }
