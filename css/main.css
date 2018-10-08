@@ -12,12 +12,12 @@ html {
 .dark-magenta {
   color: #990073;
     transform: rotate(-10deg);
-  transform-origin: left;
+  transform-origin: left center;
 }
 
 .tagline {
     transform: rotate(-5deg);
-    transform-origin: left;
+    transform-origin: left center;
 }
 
 .light-magenta {
@@ -26,6 +26,10 @@ html {
 
 .text {
   text-shadow: 2px 2px #e2e2e2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-60%, -50%);
 }
 
 .btn {
@@ -38,4 +42,39 @@ html {
 
 .btn:hover {
   background-color: rbga(99, 0, 73, .75);
+}
+
+.mint-chip {
+  z-index: 3;
+  position: absolute;
+  top: 350px;
+  left: 900px;
+}
+
+.cone {
+  z-index: 4;
+  position: absolute;
+  top: 500px;
+  left: 900px;
+}
+
+.chocolate-chip {
+  z-index: 5;
+  position: absolute;
+  top: 225px;
+  left: 910px;
+}
+
+.vanilla-fudge {
+  z-index: 6;
+  position: absolute;
+  top: 120px;
+  left: 900px;
+}
+
+.cherry {
+  z-index: 7;
+  position: absolute;
+  top: 10px;
+  left: 910px;
 }
