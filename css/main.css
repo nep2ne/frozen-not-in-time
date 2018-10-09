@@ -42,6 +42,14 @@ html {
   background-color: #b3fbff;
 }
 
+.btn-ghost {
+  border: 3px solid #990073;
+}
+
+.btn-ghost:hover {
+  background-color: #f1b5ff;
+}
+
 .mint-chip {
   z-index: 3;
   position: absolute;
@@ -86,10 +94,21 @@ html {
   100% {
     opacity: 1;
   }
+
 }
 
 @keyframes blur {
-  0% {filter: blur(10px);}
-  50% {filter: blur(5px);}
-  100% {filter: blur(0px);}
+
+  0% {
+    filter: blur(10px);
+  }
+
+  50% {
+    filter: blur(5px);
+  }
+
+  100% {
+    filter: blur(0);
+  }
+
 }
