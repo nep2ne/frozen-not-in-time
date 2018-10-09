@@ -156,7 +156,7 @@ html {
 @keyframes top-position-cherry {
 
   0% {
-    top: -10%x;
+    top: -10%;
   }
 
   100% {
