@@ -1,6 +1,6 @@
 html {
   font-family: "Fredoka One", sans-serif;
-  background: repeating-linear-gradient(-35deg, #c9fcff, #c9fcff 10px, #d4fdff 10px, #d4fdff 20px);
+  background: repeating-linear-gradient(-35deg, #c9fcff, #c9fcff 10px, #d4fdff 10px, #d4fdff 22px);
 }
 
 .dark-magenta {
@@ -24,6 +24,10 @@ html {
   top: 50%;
   left: 50%;
   transform: translate(-60%, -50%);
+  animation: opacity 3s linear;
+  animation: blur 3s linear;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
 }
 
 .btn {
@@ -71,4 +75,21 @@ html {
   position: absolute;
   top: 10px;
   left: 710px;
+}
+
+@keyframes opacity {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blur {
+  0% {filter: blur(10px);}
+  50% {filter: blur(5px);}
+  100% {filter: blur(0px);}
 }
