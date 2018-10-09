@@ -1,6 +1,7 @@
 html {
   font-family: "Fredoka One", sans-serif;
   background: repeating-linear-gradient(-35deg, #c9fcff, #c9fcff 10px, #d4fdff 10px, #d4fdff 22px);
+  border-top: 10px solid #b3fbff;
 }
 
 .dark-magenta {
