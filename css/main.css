@@ -27,7 +27,7 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
   animation: opacity 3s linear;
-  animation: blur 3s linear;
+  animation: blur 2s 1s linear;
   animation-fill-mode: forwards;
 }
 
@@ -169,6 +169,10 @@ html {
 
   0% {
     opacity: 0;
+  }
+
+  50% {
+    opacity: .5;
   }
 
   100% {
