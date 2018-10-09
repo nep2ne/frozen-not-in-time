@@ -26,7 +26,6 @@ html {
   transform: translate(-60%, -50%);
   animation: opacity 3s linear;
   animation: blur 3s linear;
-  animation-delay: 1s;
   animation-fill-mode: forwards;
 }
 
@@ -53,36 +52,110 @@ html {
 .mint-chip {
   z-index: 3;
   position: absolute;
-  top: 350px;
+  top: -300px;
   left: 700px;
+  animation: top-position-mint 1s ease;
+  animation-fill-mode: forwards;
+  animation-delay: .2s;
+}
+
+@keyframes top-position-mint {
+
+  0% {
+    top: -300px;
+  }
+
+  100% {
+    top: 350px;
+  }
+
 }
 
 .cone {
   z-index: 4;
   position: absolute;
-  top: 500px;
+  top: -300px;
   left: 700px;
+  animation: top-position-cone 1s ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes top-position-cone {
+
+  0% {
+    top: -300px;
+  }
+
+  100% {
+    top: 500px;
+  }
+
 }
 
 .chocolate-chip {
   z-index: 5;
   position: absolute;
-  top: 225px;
+  top: -300px;
   left: 710px;
+  animation: top-position-choco 1s ease;
+  animation-fill-mode: forwards;
+  animation-delay: .4s;
+}
+
+@keyframes top-position-choco {
+
+  0% {
+    top: -300px;
+  }
+
+  100% {
+    top: 225px;
+  }
+
 }
 
 .vanilla-fudge {
   z-index: 6;
   position: absolute;
-  top: 120px;
+  top: -300px;
   left: 700px;
+  animation: top-position-vanilla 1s ease;
+  animation-fill-mode: forwards;
+  animation-delay: .8s;
+}
+
+@keyframes top-position-vanilla {
+
+  0% {
+    top: -300px;
+  }
+
+  100% {
+    top: 120px;
+  }
+
 }
 
 .cherry {
   z-index: 7;
   position: absolute;
-  top: 10px;
+  top: -300px;
   left: 710px;
+  animation: top-position-cherry 1s ease;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+
+@keyframes top-position-cherry {
+
+  0% {
+    top: -300px;
+  }
+
+  100% {
+    top: 10px;
+  }
+
 }
 
 @keyframes opacity {
