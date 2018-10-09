@@ -2,6 +2,7 @@ html {
   font-family: "Fredoka One", sans-serif;
   background: repeating-linear-gradient(-35deg, #c9fcff, #c9fcff 11px, #d4fdff 11px, #d4fdff 22px);
   border-top: 8px solid #b3fbff;
+  height: 1000px;
 }
 
 .dark-magenta {
@@ -52,6 +53,7 @@ html {
 
 .mint-chip {
   z-index: 3;
+  max-height: 200px;
   position: absolute;
   top: -300px;
   left: 700px;
@@ -67,7 +69,7 @@ html {
   }
 
   100% {
-    top: 350px;
+    top: 328px;
   }
 
 }
@@ -79,6 +81,7 @@ html {
   left: 700px;
   animation: top-position-cone 1s ease;
   animation-fill-mode: forwards;
+  max-height: 200px;
 }
 
 @keyframes top-position-cone {
@@ -88,13 +91,14 @@ html {
   }
 
   100% {
-    top: 500px;
+    top: 450px;
   }
 
 }
 
 .chocolate-chip {
   z-index: 5;
+  max-height: 200px;
   position: absolute;
   top: -300px;
   left: 710px;
@@ -110,13 +114,14 @@ html {
   }
 
   100% {
-    top: 225px;
+    top: 235px;
   }
 
 }
 
 .vanilla-fudge {
   z-index: 6;
+  max-height: 200px;
   position: absolute;
   top: -300px;
   left: 700px;
@@ -132,13 +137,14 @@ html {
   }
 
   100% {
-    top: 120px;
+    top: 150px;
   }
 
 }
 
 .cherry {
   z-index: 7;
+  max-height: 200px;
   position: absolute;
   top: -300px;
   left: 710px;
@@ -154,7 +160,7 @@ html {
   }
 
   100% {
-    top: 10px;
+    top: 70px;
   }
 
 }
